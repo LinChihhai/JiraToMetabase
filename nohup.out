@@ -1,0 +1,28 @@
+
+> jira-bi@1.0.0 start G:\workspace\JiraToMetabase
+> node src/index.js
+
+internal/process/esm_loader.js:74
+    internalBinding('errors').triggerUncaughtException(
+                              ^
+
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'G:\workspace\JiraToMetabase\src\web\server.js' imported from G:\workspace\JiraToMetabase\src\index.js
+    at finalizeResolution (internal/modules/esm/resolve.js:285:11)
+    at moduleResolve (internal/modules/esm/resolve.js:708:10)
+    at Loader.defaultResolve [as _resolve] (internal/modules/esm/resolve.js:819:11)
+    at Loader.resolve (internal/modules/esm/loader.js:89:40)
+    at Loader.getModuleJob (internal/modules/esm/loader.js:242:28)
+    at ModuleWrap.<anonymous> (internal/modules/esm/module_job.js:73:40)
+    at link (internal/modules/esm/module_job.js:72:36) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! jira-bi@1.0.0 start: `node src/index.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the jira-bi@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\Dell\AppData\Roaming\npm-cache\_logs\2022-04-28T09_46_09_692Z-debug.log
